@@ -102,6 +102,13 @@ a {
     margin: 0 auto;
     max-width: 1150px;
   }
+
+}
+@media (max-width: 1025px) {
+  .main_section{
+    margin-top: 20%;
+  }
+
 }
 
 @media (min-width: 1025px) {
