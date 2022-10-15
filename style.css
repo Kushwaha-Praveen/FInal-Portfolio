@@ -45,6 +45,7 @@ a {
   text-transform: uppercase;
   text-align: center;
   display: block;
+  color: black;
 }
 .main-nav a {
   color: #34495e;
@@ -249,7 +250,15 @@ a {
 #skills_project{
   padding-top: 5%;
   padding-bottom: 0;
+  }
+  @media (max-width: 1025px) {
+#skills_project{
+padding-top: 12%;
 }
+#about_project{
+  padding-top: 6.5%;
+}
+  }
 .skills {
   text-align: center;
   font-size: 185%;
