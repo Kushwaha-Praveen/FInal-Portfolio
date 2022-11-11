@@ -102,7 +102,7 @@ a {
   display: flex;
   flex-direction: row;
   border-radius: 20px;
-  transition: 0.4s;3
+  transition: 0.4s;
   position: relative;
 }
 .Introduction {
@@ -241,7 +241,7 @@ a {
   margin-top: 5%;
   border: solid;
 }
-@media (max width: 1025px) {
+@media (max-width: 1025px) {
   .about_image {
     order: 1;
     justify-self: center;
@@ -525,9 +525,9 @@ footer {
   height: 15rem;
   width: 100%;
 }
-.acad {
-  text-align:
-}
+/* .acad {
+  text-align: 
+} */
 .acad h1 {
   text-align: center;
   margin-left: 25%;
